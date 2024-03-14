@@ -20,6 +20,8 @@ module.exports = {
     es6: true,
   },
 
+  
+
   // Base config
   extends: ["eslint:recommended"],
 
@@ -47,6 +49,9 @@ module.exports = {
           typescript: {},
         },
       },
+        rules: {
+        "react/prop-types": "off",
+  },
     },
 
     // Typescript
